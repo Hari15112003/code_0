@@ -230,7 +230,7 @@ class _WorkoutScheduleViewState extends State<WorkoutScheduleView> {
                     backgroundColor: Colors.transparent,
                     fullCalendarScroll: FullCalendarScroll.horizontal,
                     fullCalendarDay: WeekDay.short,
-                    selectedDateColor: Colors.white,
+                    selectedDateColor: Colors.tealAccent,
                     dateColor: Colors.black,
                     locale: 'en',
                     initialDate: DateTime.now(),
@@ -241,17 +241,17 @@ class _WorkoutScheduleViewState extends State<WorkoutScheduleView> {
                       _selectedDateAppBBar = date;
                       setDayEventWorkoutList();
                     },
-                    // selectedDayLogo: Container(
-                    //   width: double.maxFinite,
-                    //   height: double.maxFinite,
-                    //   decoration: BoxDecoration(
-                    //     gradient: LinearGradient(
-                    //         colors: TColor.primaryG,
-                    //         begin: Alignment.topCenter,
-                    //         end: Alignment.bottomCenter),
-                    //     borderRadius: BorderRadius.circular(10.0),
+                    //   selectedDayLogo: Container(
+                    //     width: double.maxFinite,
+                    //     height: double.maxFinite,
+                    //     decoration: BoxDecoration(
+                    //       gradient: LinearGradient(
+                    //           colors: TColor.primaryG,
+                    //           begin: Alignment.topCenter,
+                    //           end: Alignment.bottomCenter),
+                    //       borderRadius: BorderRadius.circular(10.0),
+                    //     ),
                     //   ),
-                    // ),
                   ),
                   nameList.isNotEmpty
                       ? const Padding(

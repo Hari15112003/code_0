@@ -53,10 +53,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCvtz_FWS1HZd_Y1M7NkRPpf-ec58dbfb4',
-    appId: '1:234819954411:android:1a9bcbd458c151d832c0ae',
-    messagingSenderId: '234819954411',
-    projectId: 'fitnessapp-621cd',
-    storageBucket: 'fitnessapp-621cd.appspot.com',
+    apiKey: 'AIzaSyDdy5FMtGUOb-B_Il0SFTbFAx8IwVN_6F4',
+    appId: '1:1078146988444:android:d20e521fa576d51bdff059',
+    messagingSenderId: '1078146988444',
+    projectId: 'fitnessapp-98e6f',
+    storageBucket: 'fitnessapp-98e6f.appspot.com',
   );
 }

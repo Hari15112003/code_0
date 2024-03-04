@@ -77,7 +77,7 @@ class _UpcomingWorkoutRowState extends State<UpcomingWorkoutRow> {
             CustomAnimatedToggleSwitch<bool>(
               current: positive,
               values: const [false, true],
-              dif: 0.0,
+              // dif: 0.0,
               indicatorSize: const Size.square(30.0),
               animationDuration: const Duration(milliseconds: 200),
               animationCurve: Curves.linear,
@@ -87,14 +87,14 @@ class _UpcomingWorkoutRowState extends State<UpcomingWorkoutRow> {
               iconBuilder: (context, local, global) {
                 return const SizedBox();
               },
-              defaultCursor: SystemMouseCursors.click,
-              onTap: () async {
-                await ap.updateWorkoutStatusFireBase(
-                    completed: !positive,
-                    workOutName: widget.workOutName.toString(),
-                    context: context);
-                setState(() => positive = !positive);
-              },
+              // defaultCursor: SystemMouseCursors.click,
+              // onTap: () async {
+              //   await ap.updateWorkoutStatusFireBase(
+              //       completed: !positive,
+              //       workOutName: widget.workOutName.toString(),
+              //       context: context);
+              //   setState(() => positive = !positive);
+              // },
               iconsTappable: false,
               wrapperBuilder: (context, global, child) {
                 return Stack(

@@ -171,7 +171,7 @@ class _MealScheduleViewState extends State<MealScheduleView> {
             // fullCalendar: false,
             fullCalendarScroll: FullCalendarScroll.horizontal,
             fullCalendarDay: WeekDay.short,
-            selectedDateColor: Colors.white,
+            selectedDateColor: Colors.tealAccent,
             dateColor: Colors.black,
             locale: 'en',
 
