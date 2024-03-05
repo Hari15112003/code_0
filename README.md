@@ -2,6 +2,7 @@
 
 This project, designed as a student innovation initiative, aims to encourage and support fitness activities by providing a comprehensive mobile application. The app offers a range of features to help users track their progress, stay motivated, and achieve their fitness goals.
 
+**Documentation** - https://drive.google.com/file/d/19r-5WMjgdRtDJlEwQNCHFtL91XiMxrDo/view?usp=sharing
 
 
 **Key Features:**
